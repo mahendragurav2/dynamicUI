@@ -1,0 +1,93 @@
+{
+  "Config": {
+     "Control": [
+      {
+        "ControlID": 1,
+        "ControlName": "Category",
+        "ElementType": "DropDownList",
+        "DisplayLabelValue": "Category",
+        "Width": 90,
+        "DefaultValue": "--Select Category--",
+        "FileHeaderDisplayText": "Category",
+        "Visibility": [
+          {
+            "Sample Analysis": "2,4,5",
+            "Volumetric Preparation": "3,7",
+            "Reagent Preparation": "3,7",
+            "Sample Preparation": "2,4,5"
+          }
+        ]
+      },
+      {
+        "ControlID": 2,
+        "ControlName": "BatchName",
+        "ElementType": "DropDownList",
+        "DisplayLabelValue": "Batch name",
+        "Width": 90,
+        "DefaultValue": "-- Select Batch name --",
+        "FileHeaderDisplayText": "",
+        "Visibility": [
+          {
+            "LIS-VS-002-17": "5"
+          }
+        ]
+      },
+      {
+        "ControlID": 3,
+        "ControlName": "ReferenceID",
+        "ElementType": "DropDownList",
+        "DisplayLabelValue": "Reference ID",
+        "Width": 90,
+        "DefaultValue": "-- Select Reference ID --",
+        "FileHeaderDisplayText": ""
+        
+      },
+      {
+        "ControlID": 4,
+        "ControlName": "SampleID",
+        "ElementType": "DropDownList",
+        "DisplayLabelValue": "Sample ID",
+        "Width": 90,
+        "DefaultValue": "-- Select Sample ID --",
+        "FileHeaderDisplayText": "",
+        "Mandatory": "Yes",
+        "MandatoryText": "Not Applicable",
+        "AdditionalInfo": "yes",
+        "AIFileHeaderDisplayText": "AI-SampleID"
+
+      },
+      {
+        "ControlID": 5,
+        "ControlName": "TestName",
+        "ElementType": "DropDownList",
+        "DisplayLabelValue": "Test name",
+        "Width": 90,
+        "DefaultValue": "-- Select Test name --",
+        "FileHeaderDisplayText": ""
+      },
+      {
+        "ControlID": 6,
+        "ControlName": "PrepCount",
+        "ElementType": "DropDownList",
+        "DisplayLabelValue": "Prep Count",
+        "Width": 90,
+        "DefaultValue": "-- Select Prep Count --",
+        "FileHeaderDisplayText": "",
+        "Mandatory": "Yes",
+        "MandatoryText": "Not Available",
+        "AdditionalInfo": "yes",
+        "AIFileHeaderDisplayText": "AI-Prep"
+      },
+      {
+        "ControlID": 7,
+        "ControlName": "MaterialName",
+        "ElementType": "DropDownList",
+        "DisplayLabelValue": "Material name",
+        "Width": 90,
+        "DefaultValue": "-- Select Material name --",
+        "FileHeaderDisplayText": ""
+        
+      }
+    ]
+  }
+}
